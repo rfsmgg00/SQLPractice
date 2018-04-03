@@ -1,0 +1,13 @@
+create table tv_shows(
+  ID integer,
+  Name text,
+  Rating integer);
+  
+  insert into tv_shows (ID, Name, Rating)
+  Values (1, 'Royal Pains', 3);
+  insert into tv_shows (ID, Name, Rating)
+  values (2, 'Father Brown', 5);
+  insert into tv_shows (ID, Name, Rating)
+  values (3, 'Unfortunate Series of Events',1);
+  
+  select*from tv_shows
